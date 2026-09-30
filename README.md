@@ -3,55 +3,57 @@ Perancangan Digital Twin Tangki Air untuk Monitoring Ketinggian dan Kondisi Air 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=blob&color=0:0b3d63,100:00c6ff&height=300&text=DIGITAL%20TWIN&fontSize=64&fontColor=ffffff&desc=TANGKI%20AIR%20%E2%80%94%20Memantau%20Air%20Lewat%20Kode&descSize=22&descAlignY=72&animation=fadeIn" alt="Header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045e,50:0077b6,100:00b4d8&height=250&section=header&text=DIGITAL%20TWIN&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Tangki%20Air%20-%20Real-Time%20Monitoring&descSize=22&descAlignY=62" alt="Header Digital Twin" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Bangers&size=34&duration=3000&pause=1000&color=5EC8FF&background=06162A&center=true&vCenter=true&width=760&height=70&lines=KAMI+NGODING+SAMPAI+KE+DASAR+TANGKI;AIR+TENANG+DATA+MENGALIR" alt="Slogan"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0077b6&height=80&section=header&text=PERANCANGAN%20DIGITAL%20TWIN%20TANGKI%20AIR&fontSize=34&fontColor=ffffff&fontAlignY=58" alt="Perancangan Digital Twin Tangki Air" width="92%"/>
 <br/>
-
-![MK](https://img.shields.io/badge/MK-RPL-0b3d63?style=for-the-badge&labelColor=06162A)
-![SPRINT](https://img.shields.io/badge/SPRINT-01-0b3d63?style=for-the-badge&labelColor=06162A)
-![MEMBER](https://img.shields.io/badge/MEMBER-03-0b3d63?style=for-the-badge&labelColor=06162A)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0077b6,100:00b4d8&height=56&section=header&text=untuk%20Memantau%20Ketinggian%20dan%20Kondisi%20Air%20Secara%20Real-Time&fontSize=24&fontColor=ffffff&fontAlignY=60" alt="untuk Memantau Ketinggian dan Kondisi Air Secara Real-Time" width="92%"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06162a,100:0b6fa8&height=60&section=header&text=TRANSMISI%20DARI%20TIM%20KAMI&fontSize=26&fontColor=7fdcff&fontAlignY=55" alt="Transmisi" width="90%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3200&pause=900&color=00E5FF&background=06162A&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=190&lines=%24+Perancangan+Digital+Twin+Tangki+Air;%3E+Memantau+Ketinggian+dan+Kondisi+Air;%3E+Secara+Real-Time...;%3E+Sensor+terhubung.+Air+mengalir.+Data+aman." alt="Terminal"/>
-
-<br/>
-
-![REAL](https://img.shields.io/badge/REAL-TIME-00c6ff?style=for-the-badge&labelColor=06162A)
-![SMART](https://img.shields.io/badge/SMART-MONITORING-00c6ff?style=for-the-badge&labelColor=06162A)
-![DATA](https://img.shields.io/badge/DATA-DRIVEN-00c6ff?style=for-the-badge&labelColor=06162A)
+![MK](https://img.shields.io/badge/MK-RPL-0077b6?style=for-the-badge&labelColor=03045e)
+![SPRINT](https://img.shields.io/badge/SPRINT-01-0077b6?style=for-the-badge&labelColor=03045e)
+![MEMBER](https://img.shields.io/badge/MEMBER-03-0077b6?style=for-the-badge&labelColor=03045e)
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06162a,100:0b6fa8&height=60&section=header&text=TENTANG%20PROYEK&fontSize=24&fontColor=7fdcff&fontAlignY=55" alt="Tentang" width="90%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0096c7&height=64&section=header&text=TRANSMISI%20DARI%20TIM%20KAMI&fontSize=28&fontColor=caf0f8&fontAlignY=58" alt="Transmisi dari tim kami" width="92%"/>
 
-</div>
+<br/>
 
 <p align="center">
-<b>Perancangan Digital Twin Tangki Air untuk Memantau Ketinggian dan Kondisi Air Secara Real-Time</b><br/><br/>
-Representasi digital dari tangki fisik yang menampilkan <b>ketinggian air</b>, <b>suhu</b>, <b>kekeruhan</b>, dan <b>TDS</b>
-secara real-time, lengkap dengan riwayat data dan notifikasi saat kondisi tidak normal.
+<b>Air di tangki bisa dipantau tanpa harus mengecek langsung.</b><br/>
+Kami merancang representasi digital (digital twin) dari tangki fisik<br/>
+yang menampilkan kondisi air secara real-time dan memberi peringatan saat ada yang tidak normal.
 </p>
 
-<div align="center">
+<table>
+  <tr>
+    <td align="center" width="200">💧<br/><br/><b>KETINGGIAN</b><br/><sub>Level air dalam cm dan persen</sub></td>
+    <td align="center" width="200">🌡️<br/><br/><b>SUHU</b><br/><sub>Suhu air dalam °C</sub></td>
+    <td align="center" width="200">🧪<br/><br/><b>KEKERUHAN</b><br/><sub>Tingkat kejernihan air (NTU)</sub></td>
+    <td align="center" width="200">🔬<br/><br/><b>TDS</b><br/><sub>Padatan terlarut dalam air (ppm)</sub></td>
+  </tr>
+</table>
 
-![Scrum](https://img.shields.io/badge/Methodology-Scrum-0d6efd?style=flat-square)
-![Python](https://img.shields.io/badge/Python-Flask-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/Frontend-HTML%20%7C%20JS%20%7C%20Chart.js-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Sprint_1-2ecc71?style=flat-square)
+<br/>
+
+![Sensor](https://img.shields.io/badge/SENSOR-Simulator_ESP32-00b4d8?style=for-the-badge&labelColor=03045e)
+![API](https://img.shields.io/badge/REST_API-Flask-00b4d8?style=for-the-badge&labelColor=03045e&logo=flask&logoColor=white)
+![DB](https://img.shields.io/badge/DATABASE-SQLite-00b4d8?style=for-the-badge&labelColor=03045e&logo=sqlite&logoColor=white)
+![WEB](https://img.shields.io/badge/DASHBOARD-HTML_JS-00b4d8?style=for-the-badge&labelColor=03045e&logo=javascript&logoColor=white)
+
+<br/>
+
+![REAL](https://img.shields.io/badge/REAL-TIME-48cae4?style=for-the-badge&labelColor=03045e)
+![SMART](https://img.shields.io/badge/SMART-MONITORING-48cae4?style=for-the-badge&labelColor=03045e)
+![DATA](https://img.shields.io/badge/DATA-DRIVEN-48cae4?style=for-the-badge&labelColor=03045e)
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06162a,100:0b6fa8&height=60&section=header&text=MEMBER%20TIM%20KAMI&fontSize=24&fontColor=7fdcff&fontAlignY=55" alt="Member" width="90%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0096c7&height=64&section=header&text=MEMBER%20TIM%20KAMI&fontSize=28&fontColor=caf0f8&fontAlignY=58" alt="Member tim kami" width="92%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1200&color=00E5FF&background=06162A&center=true&vCenter=true&width=760&height=44&lines=%5B+tes%2C+cek+ombak...+3+member+terdetek+%5D" alt="Deteksi member"/>
-
-<br/><br/>
+<br/>
 
 <table>
   <tr>
@@ -76,37 +78,24 @@ secara real-time, lengkap dengan riwayat data dan notifikasi saat kondisi tidak 
   </tr>
 </table>
 
-<br/>
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06162a,100:0b6fa8&height=60&section=header&text=ROADMAP%20SPRINT&fontSize=24&fontColor=7fdcff&fontAlignY=55" alt="Roadmap" width="90%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0096c7&height=64&section=header&text=ROADMAP%20SPRINT&fontSize=28&fontColor=caf0f8&fontAlignY=58" alt="Roadmap sprint" width="92%"/>
 
 </div>
 
-| Sprint | Bulan | Fokus |
-|--------|-------|-------|
-| **Sp1** | September | Charter, Function Point, backlog, arsitektur, wireframe, setup repo |
-| **Sp2** | Oktober | Backend, API data sensor, simulator, dashboard ketinggian air |
-| **Sp3** | November | Suhu, kekeruhan, TDS, grafik tren, ambang batas & notifikasi |
-| **Sp4** | Desember | Testing, riwayat & ekspor data, penyempurnaan tampilan |
-| **Sp5** | Desember | Final testing, bug fixing, persiapan presentasi |
+<br/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06162a,100:0b6fa8&height=60&section=header&text=CARA%20MENJALANKAN&fontSize=24&fontColor=7fdcff&fontAlignY=55" alt="Cara menjalankan" width="90%"/>
+| Sprint | Bulan | Fokus |
+|:------:|:-----:|-------|
+| **Sp1** | September | Charter, Function Point, backlog, arsitektur, wireframe, setup repo |
+| **Sp2** | Oktober | Backend, API data sensor, simulator, dashboard ketinggian air |
+| **Sp3** | November | Suhu, kekeruhan, TDS, grafik tren, ambang batas dan notifikasi |
+| **Sp4** | Desember | Testing, riwayat dan ekspor data, penyempurnaan tampilan |
+| **Sp5** | Desember | Final testing, bug fixing, persiapan presentasi |
 
 </div>
 
-```bash
-cd backend
-pip install -r requirements.txt
-python init_db.py      # buat database
-python app.py          # API di http://127.0.0.1:5000
-
-# terminal baru
-cd simulator && python sensor_simulator.py
-
-# terminal baru
-cd frontend && python -m http.server 8000   # buka http://127.0.0.1:8000
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0b3d63,100:06162a&height=140&section=footer" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0077b6,100:03045e&height=140&section=footer" alt="Footer" width="100%"/>
