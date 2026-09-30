@@ -1,6 +1,3 @@
-# Digital-Twin-Tangki-Air
-Perancangan Digital Twin Tangki Air untuk Monitoring Ketinggian dan Kondisi Air Secara Real-Time
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045e,50:0077b6,100:00b4d8&height=220&section=header&text=DIGITAL%20TWIN&fontSize=64&fontColor=ffffff&fontAlignY=42" alt="Digital Twin" width="100%"/>
