@@ -3,7 +3,7 @@ Perancangan Digital Twin Tangki Air untuk Monitoring Ketinggian dan Kondisi Air 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045e,50:0077b6,100:00b4d8&height=250&section=header&text=DIGITAL%20TWIN&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Tangki%20Air%20-%20Real-Time%20Monitoring&descSize=22&descAlignY=62" alt="Header Digital Twin" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045e,50:0077b6,100:00b4d8&height=220&section=header&text=DIGITAL%20TWIN&fontSize=64&fontColor=ffffff&fontAlignY=42" alt="Digital Twin" width="100%"/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0077b6&height=80&section=header&text=PERANCANGAN%20DIGITAL%20TWIN%20TANGKI%20AIR&fontSize=34&fontColor=ffffff&fontAlignY=58" alt="Perancangan Digital Twin Tangki Air" width="92%"/>
 <br/>
@@ -22,32 +22,32 @@ Perancangan Digital Twin Tangki Air untuk Monitoring Ketinggian dan Kondisi Air 
 <br/>
 
 <p align="center">
-<b>Air di tangki bisa dipantau tanpa harus mengecek langsung.</b><br/>
-Kami merancang representasi digital (digital twin) dari tangki fisik<br/>
-yang menampilkan kondisi air secara real-time dan memberi peringatan saat ada yang tidak normal.
+<b>Cukup lihat layar, tidak perlu mengecek tangki langsung.</b><br/>
+Sistem ini memantau <b>ketinggian air</b> dan <b>kondisi air</b> di dalam tangki,<br/>
+lalu membunyikan alarm saat air hampir habis atau sudah penuh.
 </p>
 
 <table>
   <tr>
-    <td align="center" width="200">💧<br/><br/><b>KETINGGIAN</b><br/><sub>Level air dalam cm dan persen</sub></td>
-    <td align="center" width="200">🌡️<br/><br/><b>SUHU</b><br/><sub>Suhu air dalam °C</sub></td>
-    <td align="center" width="200">🧪<br/><br/><b>KEKERUHAN</b><br/><sub>Tingkat kejernihan air (NTU)</sub></td>
-    <td align="center" width="200">🔬<br/><br/><b>TDS</b><br/><sub>Padatan terlarut dalam air (ppm)</sub></td>
+    <td align="center" width="290">📏<br/><br/><b>KETINGGIAN AIR</b><br/><sub>Menampilkan air berada di ketinggian berapa<br/>(cm dan volume dalam ml)</sub></td>
+    <td align="center" width="290">💧<br/><br/><b>KONDISI AIR</b><br/><sub>Status tangki saat ini:<br/>Normal, Hampir Habis, atau Penuh</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="290">🔔<br/><br/><b>ALARM BATAS MINIMUM</b><br/><sub>Bunyi otomatis saat air<br/>mencapai batas habis</sub></td>
+    <td align="center" width="290">🔔<br/><br/><b>ALARM BATAS MAKSIMUM</b><br/><sub>Bunyi otomatis saat air<br/>mencapai batas penuh</sub></td>
   </tr>
 </table>
 
 <br/>
 
-![Sensor](https://img.shields.io/badge/SENSOR-Simulator_ESP32-00b4d8?style=for-the-badge&labelColor=03045e)
-![API](https://img.shields.io/badge/REST_API-Flask-00b4d8?style=for-the-badge&labelColor=03045e&logo=flask&logoColor=white)
-![DB](https://img.shields.io/badge/DATABASE-SQLite-00b4d8?style=for-the-badge&labelColor=03045e&logo=sqlite&logoColor=white)
-![WEB](https://img.shields.io/badge/DASHBOARD-HTML_JS-00b4d8?style=for-the-badge&labelColor=03045e&logo=javascript&logoColor=white)
+<sub><b>Pengisian air tetap dilakukan secara manual oleh manusia.</b> Sistem hanya memantau dan memberi peringatan.</sub>
 
-<br/>
+<br/><br/>
 
-![REAL](https://img.shields.io/badge/REAL-TIME-48cae4?style=for-the-badge&labelColor=03045e)
-![SMART](https://img.shields.io/badge/SMART-MONITORING-48cae4?style=for-the-badge&labelColor=03045e)
-![DATA](https://img.shields.io/badge/DATA-DRIVEN-48cae4?style=for-the-badge&labelColor=03045e)
+![SENSOR](https://img.shields.io/badge/1-SENSOR_KETINGGIAN-00b4d8?style=for-the-badge&labelColor=03045e)
+![DASHBOARD](https://img.shields.io/badge/2-DASHBOARD_PANTAU-00b4d8?style=for-the-badge&labelColor=03045e)
+![ALARM](https://img.shields.io/badge/3-ALARM_BUNYI-00b4d8?style=for-the-badge&labelColor=03045e)
+![MANUSIA](https://img.shields.io/badge/4-ISI_MANUAL-48cae4?style=for-the-badge&labelColor=03045e)
 
 <br/><br/>
 
@@ -80,21 +80,21 @@ yang menampilkan kondisi air secara real-time dan memberi peringatan saat ada ya
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0096c7&height=64&section=header&text=ROADMAP%20SPRINT&fontSize=28&fontColor=caf0f8&fontAlignY=58" alt="Roadmap sprint" width="92%"/>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0096c7&height=64&section=header&text=ROADMAP%20FINAL%20PROJECT&fontSize=28&fontColor=caf0f8&fontAlignY=58" alt="Roadmap Final Project" width="92%"/>
 
 <br/>
 
-<div align="center">
+📍 <b>Start: Team Formation</b> &nbsp;➜&nbsp; 📦 PR1 &nbsp;➜&nbsp; 📦 PR2 &nbsp;➜&nbsp; 📦 PR3 &nbsp;➜&nbsp; 📦 PR4 &nbsp;➜&nbsp; 📦 PR5 &nbsp;➜&nbsp; 🏁 <b>Final Product Expo</b>
 
-| Sprint | Bulan | Fokus |
-|:------:|:-----:|-------|
-| **Sp1** | September | Charter, Function Point, backlog, arsitektur, wireframe, setup repo |
-| **Sp2** | Oktober | Backend, API data sensor, simulator, dashboard ketinggian air |
-| **Sp3** | November | Suhu, kekeruhan, TDS, grafik tren, ambang batas dan notifikasi |
-| **Sp4** | Desember | Testing, riwayat dan ekspor data, penyempurnaan tampilan |
-| **Sp5** | Desember | Final testing, bug fixing, persiapan presentasi |
+<br/><br/>
+
+| Sprint | Product Release | Bulan | Fokus | Review |
+|:------:|:---------------:|:-----:|-------|:------:|
+| **Sp1** | 📦 Release 1 | September | Agile Methodology, UX Design, Project Setup | Sprint 1 Review (Sep) |
+| **Sp2** | 📦 Release 2 | Oktober | Development, Testing, Refinement | Sprint 2 Review (Okt) |
+| **Sp3** | 📦 Release 3 | November | Development, Testing, Refinement | Sprint 3 Review (Nov) |
+| **Sp4** | 📦 Release 4 | Desember | Development, Testing, Refinement | Sprint 4 Review (Des) |
+| **Sp5** | 📦 Release 5 | Desember | Final Testing, Bug Fixing, Deployment Preparation | Final Exam (Des) |
 
 </div>
 
