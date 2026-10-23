@@ -4,7 +4,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045e,100:0077b6&height=80&section=header&text=PERANCANGAN%20DIGITAL%20TWIN%20TANGKI%20AIR&fontSize=34&fontColor=ffffff&fontAlignY=58" alt="Perancangan Digital Twin Tangki Air" width="92%"/>
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0077b6,100:00b4d8&height=56&section=header&text=untuk%20Memantau%20Ketinggian%20dan%20Kondisi%20Air%20Secara%20Real-Time&fontSize=24&fontColor=ffffff&fontAlignY=60" alt="untuk Memantau Ketinggian dan Kondisi Air Secara Real-Time" width="92%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0077b6,100:00b4d8&height=56&section=header&text=untuk%20Memantau%20Ketinggian%20&fontColor=ffffff&fontAlignY=60" alt="untuk Memantau Ketinggian dan Kondisi Air Secara Real-Time" width="92%"/>
 
 <br/><br/>
 
